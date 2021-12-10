@@ -1,0 +1,66 @@
+/*BANNER*/  
+
+#banner img{
+    width: 98vw;
+    margin: 1px;
+    padding: 2px;
+    margin-bottom: 0px;
+    border-radius: 20px 20px 20px 20px;
+}
+h3, h2 {
+    color: white;
+    font-size: 25px;
+}
+/*DESTAQUES*/
+
+#destaques {
+    background: #1DC224;
+    width: 80%;
+    border-radius: 20px 20px 20px 20px;
+    margin-left: auto;
+    margin-right: auto;
+}
+#texto-destaque {
+    width: 100%;
+    color: white;
+    font-size: 20px;
+    padding: 2px;
+}
+#foto-destaque {
+    margin: 15vw;
+    width: 50vw;
+    border-radius: 20px 20px 20px 20px;
+}
+p{
+    font-size: 20px;
+    color: white;
+    
+}
+p a{
+    text-decoration: none;
+    color: white;
+}
+
+/*NOVIDADES*/
+
+#novidades img {
+    margin-left: 25vw;
+    width: 50vw;
+    border-radius: 20px 20px 20px 20px;
+}
+#texto-novidades {
+    padding: 10px;
+}
+/*GALERIA*/
+
+.carrosel-img {
+    width: 75%;
+    margin-left: 15vw;
+}
+.titulo-carrosel {
+    color: gold;
+    font-size: 28px;
+}
+.carrosel-texto {
+    color: gold;
+}

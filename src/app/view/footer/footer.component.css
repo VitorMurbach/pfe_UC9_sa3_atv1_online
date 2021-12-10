@@ -1,0 +1,19 @@
+#rodape {
+    color: white;
+    background-color: rgba(7, 236, 7, 0.623);
+    font-size: 20px;
+}
+h4.texto, h5.texto {
+    font-size: 20px;
+}
+#footer-flex {
+    margin: 5px;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    
+}
+#redes-sociais {
+    width: 5vw;
+    margin: 2vw;
+}

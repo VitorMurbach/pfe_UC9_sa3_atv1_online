@@ -1,0 +1,57 @@
+mat-toolbar {
+    color: white;
+    background-color: rgba(7, 236, 7, 0.623);
+}
+#menu-mobile {
+    display: block;
+}
+#menu-desktop {
+    display: none;
+}
+#header-logotipo{
+    height: 50px;
+}
+#header-espaco {
+    flex: 1 1 auto;
+}
+.menu-buttom {
+    color: white;
+    border-radius: 50px;
+    width: 120px;
+    height: 40px;
+}
+#menu-slide {
+    z-index: 99;
+    position: absolute;
+    top: 60px;
+    left: -200px;
+    width: 150px;
+    height: 200px;
+    border: 1px solid silver;
+    border-radius: 5px;
+    background-color: snow;
+    transition: 0.5ms ease-in;
+}
+#menu-slide.show {
+    left: 5px;
+}
+#menu-slide nav ul {
+    list-style: none;
+}
+#menu-slide nav ul{
+    margin-top: 10px;
+}
+#menu-slide nav ul li a {
+    text-decoration: none;
+    color: black;
+    font-weight: bold;
+}
+
+@media screen and (min-width: 760px){
+    #menu-mobile {
+        display: none;
+    }
+    #menu-desktop {
+        display: block;
+    }
+}
